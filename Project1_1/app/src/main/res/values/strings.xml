@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project1_1</string>
+    <string name="strBtn3"> 찬호 팍 </string>
+    <string name="title"> 스마트 금융과 </string>
+    <string name="description"> 설명을 장황하게
+    설명을ㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇㅁㅇ
+    여러줄
+    쓰세요
+    네
+    알겠습니다
+    </string>
+</resources>

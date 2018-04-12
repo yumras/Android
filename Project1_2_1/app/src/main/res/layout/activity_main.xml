@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.smart_16.project1_2_1.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="키를 입력하세요(cm)" />
+
+    <EditText
+        android:id="@+id/editHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="41dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/Weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="몸무게를 입력하세요(kg)" />
+
+    <EditText
+        android:id="@+id/editWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="116dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI 계산"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="206dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/textResult1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="301dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/textResult2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="355dp"
+        android:layout_margin="10dp"/>
+</LinearLayout>

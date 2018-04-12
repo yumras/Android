@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.smart_16.project1_1.MainActivity"
+    android:orientation="vertical">
+
+    <!-- <시작태크 속성 = 값...> </끝태크>
+    <시작태크 속성 = 값 /> <Butten> </Button> -->
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="클릭 1"
+        android:background="#00ff00"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:visibility="visible"
+        android:enabled="false"
+        android:rotation="10"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="클릭 2"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strBtn3"> <!-- string.xml 에서 strBtn3 값 -->
+    </Button>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textColor="#2222ee"
+        android:textSize="30dp"
+        android:typeface="monospace"
+        android:textStyle="italic"
+        android:background="#ccccff"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description" />
+
+
+</LinearLayout>
