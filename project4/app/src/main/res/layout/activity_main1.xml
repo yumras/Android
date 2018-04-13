@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/btnPrev"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="≪" />
+
+      <Button
+          android:id="@+id/btnStart"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="▷" />
+
+      <Button
+          android:id="@+id/btnStop"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="□" />
+
+      <Button
+          android:id="@+id/btnNext"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="≫" />
+  </LinearLayout>
+
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imgCat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/cat" />
+
+        <ImageView
+            android:id="@+id/imgDonut"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/donut" />
+
+        <ImageView
+            android:id="@+id/imgFroyo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/froyo" />
+
+        <ImageView
+            android:id="@+id/imgMarshmallow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/marshmallow" />
+
+        <ImageView
+            android:id="@+id/imgLollipop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/lollipop" />
+
+        <ImageView
+            android:id="@+id/img02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/image02" />
+
+        <ImageView
+            android:id="@+id/img01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/image01" />
+
+        <ImageView
+            android:id="@+id/imgOreo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/oreo" />
+
+        <ImageView
+            android:id="@+id/imgDog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/dog" />
+
+        <ImageView
+            android:id="@+id/imgKitkat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/kitkat" />
+
+        <ImageView
+            android:id="@+id/imgIcecream"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/icecream" />
+
+        <ImageView
+            android:id="@+id/imgJellybean"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/jellybean" />
+
+        <ImageView
+            android:id="@+id/imgNougat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/nougat" />
+
+        <ImageView
+            android:id="@+id/imgGingerbread"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/gingerbread" />
+
+        <ImageView
+            android:id="@+id/imgEclair"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/eclair" />
+
+        <ImageView
+            android:id="@+id/imgHorse"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/horse" />
+
+        <ImageView
+            android:id="@+id/imgKoala"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/koala" />
+
+        <ImageView
+            android:id="@+id/imgPenguin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/penguin" />
+
+        <ImageView
+            android:id="@+id/imgRabbit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/rabbit" />
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="#ff0000"-->
+            <!--android:orientation="horizontal"></LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="#00ff00"-->
+            <!--android:orientation="horizontal"></LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="#0000ff"-->
+            <!--android:orientation="horizontal">-->
+        <!--</LinearLayout>-->
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/cupcake" />
+    </ViewFlipper>
+
+
+</LinearLayout>
