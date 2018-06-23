@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setTitle("그리드뷰 영화 포스터");
 
         final GridView gv = (GridView) findViewById(R.id.gridView1);
-        myGridAdapter gAdapter = new myGridAdapter(this);
+            myGridAdapter gAdapter = new myGridAdapter(this);
         gv.setAdapter(gAdapter);
     }
 }

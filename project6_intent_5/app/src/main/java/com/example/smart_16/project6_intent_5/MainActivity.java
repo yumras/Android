@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnDial, btnWeb, btnGoogleMap, btnSearsh, btnSms;
+    Button btnDial, btnWeb, btnGoogleMap, btnSearch, btnSms;
     Uri uri;
 
     @Override
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         btnDial = (Button)findViewById(R.id.btnDial);
         btnWeb = (Button)findViewById(R.id.btnWeb);
         btnGoogleMap = (Button)findViewById(R.id.btnGoogleMap);
-        btnSearsh = (Button)findViewById(R.id.btnSearch);
+        btnSearch = (Button)findViewById(R.id.btnSearch);
         btnSms = (Button)findViewById(R.id.btnSms);
 
         // 전화걸기
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // 구글 검색하기
-        btnSearsh.setOnClickListener(new View.OnClickListener() {
+        btnSearch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
